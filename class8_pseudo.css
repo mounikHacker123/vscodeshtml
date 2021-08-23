@@ -1,0 +1,29 @@
+.btn{
+    background-color: red;
+    color: whitesmoke;
+}
+/* pseudo class which is having only one : */
+.btn:hover{
+    background-color: yellow;
+    color: turquoise;
+}
+.btn:active{
+    background-color: black;
+    color: cornsilk;
+}
+ .btn:focus{
+    background-color: darkgreen;
+    color: darksalmon;
+} 
+/* pseudo elements which is having ::*/
+.para::before{
+    content: "my name is: ";
+    color: deeppink;
+}
+.para::after{
+    content: "mounik";
+    color: fuchsia;
+}
+.para::selection{
+    background-color: green;
+}

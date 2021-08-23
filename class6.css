@@ -1,0 +1,38 @@
+div.relative{
+    position: relative;
+    left: 100px;
+    top: 200px;
+    border: blue 2px solid;
+}
+/* div.static{
+    position: static;
+    top:500px;
+    left: 5px;
+    border: brown 2px dashed;
+} */
+div.fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: dashed red 2px;
+
+}
+div.relative{
+    position: relative;
+    width:400px;
+    height: 200px;
+    border: red 2px dashed;
+}
+div.absolute{
+    position: absolute;
+    top: 80px;
+    left:10px;
+    width: 200px;
+    height: 100px;
+    border: red 2px dashed;
+}
+div.sticky{
+    position: sticky;
+    top: 100px;
+    background-color: green;
+}

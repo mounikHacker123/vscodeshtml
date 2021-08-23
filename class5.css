@@ -1,0 +1,23 @@
+.firstbox{
+    border: rgb(77, 23, 204) 2px dashed;
+}
+/* li{
+    background-color: chocolate; it will be useful tocolour all the things in it
+} */
+#internal_ul{
+    background-color: blue;
+}
+
+
+h1{
+    background-color: cornflowerblue;
+}
+p[name="first_p_tag"]{
+    background-color: darkgreen;
+}
+body{
+    background-color: bisque;                                                                                                                                                                                
+}
+img{
+    border-radius: 50%;
+}
