@@ -1,0 +1,41 @@
+.btn{
+    background-color: red;
+    color: white;
+    /* transition-delay: 1s; */
+    /* css properties willbe applied after 1s */
+}
+.btn:focus{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 200px;
+    /* transition-delay: 1s; */
+    transition-duration: 15s;
+    /* it goes slowlyturning ops */
+    transition-property:height;
+}
+.parent{
+    width: 600px;
+    height: 600px;
+    border: blue 2px solid;
+    padding: 10px;
+}
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+    /* .child:hover{
+    background-color: green;
+    border-radius: 50%;
+    /* transform:translateY(600px); for y axis 
+    transform:translateX(400px);
+    transition:10s;}*/
+
+.child:focus{
+    background-color: green;
+    border-radius: 50%;
+    /* transform:translateY(600px); for y axis */
+    transform:translateX(400px);
+    transition:10s;
+}
